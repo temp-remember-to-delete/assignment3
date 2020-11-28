@@ -42,3 +42,10 @@ void radian_degrees_converter(void){
     }
     puts("");
 }
+
+void square(void){
+    int number;
+    printf("Enter an integer:");
+    scanf("%d", &number);
+    printf("The square of the number you entered is %d\n", number*number);
+}

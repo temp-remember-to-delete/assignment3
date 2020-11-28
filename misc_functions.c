@@ -10,7 +10,8 @@ void menu(void) {
     int size_of_choices_array = 0;
 
     char choices[][60] = {
-        "01: Factorial", "02: Read file", "03: Radian/Degree converter"
+        "01: Factorial", "02: Read file", "03: Radian/Degree converter",
+        "04: Number squared"
     };
 
     size_of_choices_array = sizeof(choices) / sizeof(*choices);
@@ -42,6 +43,8 @@ void menu(void) {
             case 3:
                 radian_degrees_converter();
                 break;
+            case 4:
+                square();
             default:
                 break;
         }
