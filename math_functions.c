@@ -43,8 +43,6 @@ void radian_degrees_converter(void){
     puts("");
 }
 
-<<<<<<< HEAD
-
 void primeFactors(int number);
 
 void prime(void){
