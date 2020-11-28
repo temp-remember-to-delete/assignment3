@@ -1,0 +1,6 @@
+#ifndef ASSIGNMENT3_MY_FUNCTIONS_H
+#define ASSIGNMENT3_MY_FUNCTIONS_H
+
+void menu(void);
+
+#endif // !ASSIGNMENT3_MY_FUNCTIONS_H
