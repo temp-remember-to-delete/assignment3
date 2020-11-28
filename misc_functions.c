@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include "misc_functions.h"
 #include "math_functions.h"
+#include "file_functions.h"
 
 void menu(void) {
     int size_of_choices_array = 0;
@@ -36,6 +37,7 @@ void menu(void) {
                 factorial();
                 break;
             case 2:
+                read_file();
                 break;
             case 3:
                 radian_degrees_converter();
