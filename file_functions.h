@@ -1,0 +1,6 @@
+#ifndef ASSIGNMENT3_FILE_FUNCTIONS_H
+#define ASSIGNMENT3_FILE_FUNCTIONS_H
+
+void read_file(void);
+
+#endif // !ASSIGNMENT3_FILE_FUNCTIONS_H
