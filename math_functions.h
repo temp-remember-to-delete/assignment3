@@ -1,0 +1,6 @@
+#ifndef ASSIGNMENT3_MATH_FUNCTIONS_H
+#define ASSIGNMENT3_MATH_FUNCTIONS_H
+
+void factorial(void);
+
+#endif // !ASSIGNMENT3_MATH_FUNCTIONS_H

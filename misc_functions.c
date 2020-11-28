@@ -2,13 +2,14 @@
 #include <string.h>
 #include <stdbool.h>
 #include <stdlib.h>
+#include "misc_functions.h"
+#include "math_functions.h"
 
 void menu(void) {
     int size_of_choices_array = 0;
 
-    // Example menu, replace with real functions
     char choices[][60] = {
-        "01: Hello, World!", "02: Factorial", "03: Read file"
+        "01: Factorial", "02: Read file"
     };
 
     size_of_choices_array = sizeof(choices) / sizeof(*choices);
@@ -32,6 +33,7 @@ void menu(void) {
                 exit(0);
                 break;
             case 1:
+                factorial();
                 break;
             case 2:
                 break;
