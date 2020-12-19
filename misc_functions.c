@@ -6,6 +6,10 @@
 #include "math_functions.h"
 #include "file_functions.h"
 
+/*
+ This file is for any functions that don't have their own category.
+*/
+
 void menu(void) {
     int size_of_choices_array = 0;
 
